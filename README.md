@@ -1,0 +1,1 @@
+# cubid-mediation-pangle-ios-sdk-spm
