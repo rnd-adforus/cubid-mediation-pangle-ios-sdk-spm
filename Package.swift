@@ -1,7 +1,7 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-let versionInfo = "0.0.0"
+let versionInfo = "1.5.0"
 
 let package = Package(
     name: "UPanKit",
@@ -25,8 +25,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UPanKit",
-            url: "https://nexus.adforus.com/repository/cubid_iOS/UPan/\(versionInfo)/UPanKit.xcframework.zip",
-            checksum: "b18fed912872dbfe38a8e56255e54435998a2c7927b2079b432ad02e6bd84d1c"
+            url: "https://nexus.adforus.com/repository/cubid_iOS/UPan/\(versionInfo)/UPanKit-SPM.zip",
+            checksum: "d226f173fd5a30bcc67370e2c01201812dc088fdfa843b49a092be870295f989"
         ),
         .target(name: "UPanKitAdapter",
             dependencies: [
